@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{REQUIRE_FILENAME} !-d
+RewriteCond %{REQUIRE_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?url=
+
+
