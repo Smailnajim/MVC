@@ -6,9 +6,9 @@ use PDOException;
 
 class DataBase{
     private static $host = "localhost";
-    private static $dbname = "";
+    private static $dbname = "Upwork_db";
     private static $user = "postgres";
-    private static $code = "123";
+    private static $code = "";
 
     private static $conexion;
     private static $instance;
